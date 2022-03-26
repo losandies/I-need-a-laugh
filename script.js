@@ -7,8 +7,6 @@ let fromMe2 = document.createElement('p');
 let typing = document.createElement('p');
 let emojis = document.querySelectorAll('.emoji');
 
-let api_key = API_KEY;
-
 fromThem.className = 'from-them';
 fromThem2.className = 'from-them';
 fromMe.className = 'from-me no-tail emoji';

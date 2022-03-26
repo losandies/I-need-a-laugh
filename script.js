@@ -7,8 +7,6 @@ let fromMe2 = document.createElement('p');
 let typing = document.createElement('p');
 let emojis = document.querySelectorAll('.emoji');
 
-import API_KEY from './apikey.js';
-
 fromThem.className = 'from-them';
 fromThem2.className = 'from-them';
 fromMe.className = 'from-me no-tail emoji';
@@ -29,7 +27,8 @@ let initiateChat = async () => {
 				headers: {
 					Accept: 'application/json',
 					'x-rapidapi-host': 'dad-jokes.p.rapidapi.com/',
-					'x-rapidapi-key': `${API_KEY}`,
+					'x-rapidapi-key':
+						'49ed49f35emshd0c7931fd78d141p1e2c99jsnd1494b2bb065',
 				},
 			}
 		);

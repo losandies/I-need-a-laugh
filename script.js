@@ -29,7 +29,7 @@ let initiateChat = async () => {
 				headers: {
 					Accept: 'application/json',
 					'x-rapidapi-host': 'dad-jokes.p.rapidapi.com/',
-					'x-rapidapi-key': `${api_key}`,
+					'x-rapidapi-key': SECRET_API_KEY,
 				},
 			}
 		);

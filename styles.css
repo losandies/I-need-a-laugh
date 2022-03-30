@@ -11,9 +11,8 @@ body {
 }
 
 #app {
-	position: absolute;
-	top: 25%;
-
+	position: relative;
+	top: 10vh;
 	border-radius: 15px;
 	height: 550px;
 	width: 350px;
